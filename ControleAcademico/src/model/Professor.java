@@ -8,6 +8,16 @@ public class Professor {
     private String cpf;
     private String atuacao;
     
+    public Professor (){}
+
+    public Professor (String nome, String endereco, int idade, int matricula, String cpf, String atuacao){
+        this.nome = nome;
+        this.endereco = endereco;
+        this.idade = idade;
+        this.matricula = matricula;
+        this.cpf = cpf;
+        this.atuacao = atuacao;
+    }
     
     public String getNome() {
         return nome;

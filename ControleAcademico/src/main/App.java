@@ -1,6 +1,6 @@
 package main;
 
-import ui.CadastroAlunoGUI;
+//import ui.CadastroAlunoGUI;
 import ui.CadastroProfessorGUI;
 
 public class App {
