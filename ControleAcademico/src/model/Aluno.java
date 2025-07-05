@@ -1,5 +1,7 @@
 package model;
 
+import java.util.Random;
+
 public class Aluno {
     private String nome;
     private String endereco;
@@ -12,7 +14,7 @@ public class Aluno {
         this.nome = nome;
         this.endereco = endereco;
         this.idade = idade;
-        this.matricula = matricula;
+        this.matricula = this.gerarMatricula();
     }
 
     public String getNome() {
@@ -36,8 +38,10 @@ public class Aluno {
     public int getMatricula() {
         return matricula;
     }
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
+    public int gerarMatricula(){
+        Random rand = new Random();
+        int Matricula = rand.nextInt(999) + 1; 
+        return matricula;
     }
     @Override
     public String toString() {

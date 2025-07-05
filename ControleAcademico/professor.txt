@@ -1,2 +1,7 @@
 nome, endereco, idade, matricula, cpf, atuacao
 roberto, rua x, 43, 983983
+marcos leonardo,rua 1,25,234654,34574565,ds
+Roberto,Rua1,25,0,74649,TI
+ROBERTA,RUA DOS LABRADORES,25,0,236746,TI
+Roberta,Rua,35,0,35235,TI
+ROBERTA,RUA DOS LABRADORES,35,6842,53456,TI

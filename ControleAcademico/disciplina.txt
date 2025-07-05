@@ -1,0 +1,4 @@
+nome,cargahoraria,id,categoria
+Java,80,14243Java,80,98734Java,80,38345Informatica,80,123,JavaJava,80,8626,TI
+java,80,6380,ti
+desenvolvimento de sistemas,90,6913,TI
