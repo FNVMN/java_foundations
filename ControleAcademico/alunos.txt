@@ -1,3 +1,0 @@
-nome, endereco, idade, matricula
-Francisoc, Rua 1, 18, 18
-Roberto,Rua 1,25,1234532

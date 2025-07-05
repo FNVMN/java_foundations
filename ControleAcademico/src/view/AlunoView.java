@@ -16,5 +16,8 @@ public class AlunoView {
         aluno.visualizar();
 
         AlunoRepository.salvar(aluno);
+
+        //Exporta para CSV
+        AlunoRepository.exportarParaCSV();
     }
 }

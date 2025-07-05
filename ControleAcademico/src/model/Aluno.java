@@ -40,7 +40,7 @@ public class Aluno {
     }
     public int gerarMatricula(){
         Random rand = new Random();
-        int Matricula = rand.nextInt(999) + 1; 
+        int matricula = rand.nextInt(999) + 1; 
         return matricula;
     }
     @Override
